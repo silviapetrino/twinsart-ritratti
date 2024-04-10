@@ -11,17 +11,17 @@ const router = createRouter({
   linkExactActiveClass: 'active',
   routes: [
     {
-      path: "/",
+      path: "/twinsart-ritratti/",
       name: "home",
       component: Home
     },
     {
-      path: "/contatti",
+      path: "/twinsart-ritratti/contatti",
       name: "contatti",
       component: Contatti
     },
     {
-      path: "/chi-siamo",
+      path: "/twinsart-ritratti/chi-siamo",
       name: "chi-siamo",
       component: ChiSiamo
     },
