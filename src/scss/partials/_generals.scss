@@ -1,0 +1,41 @@
+// general rules of website 
+@import './vars';
+// font 
+body {
+  font-family: "Jacques Francois", serif;
+}
+  
+h4, p {
+  color: $brand_quaternary;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+p { 
+  line-height: 25px;
+  font-style: italic;
+}
+
+footer {
+    h5.social {
+    color: $brand_tertiary;
+    }
+
+   a.social {
+    text-decoration: none;
+    color: $brand_primary;
+    &:hover {
+      text-decoration: underline;
+      color: $brand_detail;
+    }
+   }
+}
+// utility 
+
+.bg-sec {
+  background-color: $brand_secondary;
+}
